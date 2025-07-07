@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DOM XSS Demo</title>
+</head>
+<body>
+    <h1> Welcome to our Secure Site</h1>
+    <div id="user-info"></div>
+
+    <script>
+        const params = new URLSearchParams(window.location.search);
+        const user = params.get("user");
+
+        // Unsafe: inserting directly into the DOM (DOM-based XSS)
+        const userInfoDiv = document.getElementById("user-info");
+        userInfoDiv.innerHTML = `<p>User: ${user}</p>`;
+    </script>
+</body>
+</html>
