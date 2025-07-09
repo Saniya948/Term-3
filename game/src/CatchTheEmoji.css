@@ -1,0 +1,83 @@
+.game-container {
+    height: 100vh;
+    position: relative;
+    text-align: center;
+    padding-top: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .game-info {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+  }
+  
+  .start-button {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .emoji {
+    position: absolute;
+    cursor: pointer;
+    transition: transform 0.1s;
+  }
+  
+  .emoji:hover {
+    transform: scale(1.1);
+  }
+  
+  .difficulty {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+  }.game-container {
+    height: 100vh;
+    position: relative;
+    text-align: center;
+    padding-top: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .game-info {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+  }
+  
+  .start-button {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .emoji {
+    position: absolute;
+    cursor: pointer;
+    transition: transform 0.1s;
+  }
+  
+  .emoji:hover {
+    transform: scale(1.1);
+  }
+  
+  .difficulty {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+  }
